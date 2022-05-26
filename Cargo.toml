@@ -1,0 +1,8 @@
+cargo-features = ["workspace-inheritance"]
+
+[workspace]
+members = ["src/*"]
+
+[workspace.dependencies]
+anyhow = "1.0.52"
+
